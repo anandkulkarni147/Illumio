@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf281f7-4535-4933-a922-4585913575c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <recent name="org.illumio" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MatchCounterTest">
     <configuration name="Illumio [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Illumio [test]" />
         <item itemvalue="Gradle.MatchCounterTest" />
+        <item itemvalue="Gradle.Illumio [test]" />
         <item itemvalue="Gradle.PredefinedWordsLoaderTest.testLoadPredefinedWords" />
         <item itemvalue="Gradle.MatchCounterTest.testCountMatches" />
       </list>
@@ -222,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720111272386</updated>
       <workItem from="1720111273643" duration="38000" />
-      <workItem from="1720111326537" duration="10529000" />
+      <workItem from="1720111326537" duration="12630000" />
     </task>
     <servers />
   </component>
