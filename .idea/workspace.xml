@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="daf281f7-4535-4933-a922-4585913575c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Illumio" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Illumio" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -78,10 +84,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/IllumioAssessment/Illumio/src/main/java/org/illumio/Main.java",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +102,29 @@
       <recent name="org.illumio" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MatchCounterTest">
+  <component name="RunManager" selected="Gradle.Illumio [jar]">
+    <configuration name="Illumio [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="Illumio [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,8 +234,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MatchCounterTest" />
+        <item itemvalue="Gradle.Illumio [jar]" />
         <item itemvalue="Gradle.Illumio [test]" />
+        <item itemvalue="Gradle.MatchCounterTest" />
         <item itemvalue="Gradle.PredefinedWordsLoaderTest.testLoadPredefinedWords" />
         <item itemvalue="Gradle.MatchCounterTest.testCountMatches" />
       </list>
@@ -222,7 +251,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720111272386</updated>
       <workItem from="1720111273643" duration="38000" />
-      <workItem from="1720111326537" duration="12630000" />
+      <workItem from="1720111326537" duration="14881000" />
     </task>
     <servers />
   </component>

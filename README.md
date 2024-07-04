@@ -2,10 +2,24 @@
 
 1. Ensure you have Java and Gradle installed on your system. I am using JDK11 with gradle 8. If using IntelliJ IDEA you
    can import .idea file directly from project root, and it will automatically set up project for you
-2. Navigate to the project directory.
+2. Navigate to the project directory. Make sure to change file paths using FilePaths class inside \src\main
+   Also input files are present under \src\resources
 3. Build the project using Gradle:
    ```sh
    gradle build
+   ```
+   
+   Run project using
+   ```
+   gradle run
+   ```
+   
+   Test using
+   ```
+   gradle test
+   ```
+4. Make sure to compile all the classes other than Run main file Main.java
+5. You can directly run using run icon if using IntelliJ IDEA
 
 ## Assumptions
 
