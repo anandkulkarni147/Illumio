@@ -28,6 +28,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '11'
+          distribution: 'OpenJDK'
 
       - name: Build with Gradle Wrapper
         run: ./gradlew build
