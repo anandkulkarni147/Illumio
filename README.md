@@ -34,6 +34,26 @@
    splitting them to get words)
 6. While printing purposefully did not use 256 char gap (max predefined word length is 256) as it looks ugly
 
+
+## What has been tested
+1. The program reads the predefined words from a file.
+2. The program reads the input text file and counts the occurrences of each predefined word.
+3. The match is case-insensitive and does not count substrings.
+4. JUnit tests have been added to verify the functionality of the predefined words loading and match counting.
+
+Additional tests include:
+1. Loading predefined words.
+2. Counting matches in the input file.
+3. Handling empty predefined words.
+4. Handling empty input files.
+5. Case insensitivity.
+6. No matches found.
+7. Match count with duplicate words.
+8. Handling special characters.
+9. Handling maximum word length.
+10. Handling words exceeding the maximum length.
+
+
 ## Tests
 
 predefined_words.txt
