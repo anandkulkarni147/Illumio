@@ -1,5 +1,3 @@
 Name
-
-Detect
-
+detect
 AI

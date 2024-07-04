@@ -1,2 +1,2 @@
 Detecting first names is tricky to do even with AI.
-how do you say a street name is not a first name?
+How do you say a street name is not a first name?
