@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf281f7-4535-4933-a922-4585913575c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/illumio/FilePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/predefined_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/illumio/MatchCounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/illumio/PredefinedWordsLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/illumio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/illumio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/illumio/MatchCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/illumio/MatchCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/illumio/PredefinedWordsLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/illumio/PredefinedWordsLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +221,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720111272386</updated>
       <workItem from="1720111273643" duration="38000" />
-      <workItem from="1720111326537" duration="9397000" />
+      <workItem from="1720111326537" duration="9825000" />
     </task>
     <servers />
   </component>
