@@ -1,19 +1,20 @@
 package org.illumio;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Map;
+import java.util.Set;
+
+/**
+ * Main Application class
+ */
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Load predefined words from predefined_words input file
+        Set<String> predefinedWords = PredefinedWordsLoader.loadPredefinedWords();
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Match file against predefined set of words
+        Map<String, Integer> matchCounts = MatchCounter.countMatches(predefinedWords);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        System.out.printf("%-25s %s%n", "Predefined word", "Match count");
+        matchCounts.entrySet().forEach(entry -> System.out.printf("%-25s %d%n", entry.getKey(), entry.getValue()));
     }
 }
